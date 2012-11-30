@@ -35,7 +35,7 @@
 		<Item Name="Final Project Software Instructions.docx" Type="Document" URL="../Final Project Software Instructions.docx"/>
 		<Item Name="Forebrain.vi" Type="VI" URL="../Forebrain.vi"/>
 		<Item Name="ForebrainCmd.ctl" Type="VI" URL="../ForebrainCmd.ctl"/>
-		<Item Name="FTC Read Packet Flush.vi" Type="VI" URL="../../../../Downloads/Reducing Bluetooth Lag/FTC Read Packet Flush.vi"/>
+		<Item Name="FTC Read Packet Flush.vi" Type="VI" URL="../FTC Read Packet Flush.vi"/>
 		<Item Name="GoHome.vi" Type="VI" URL="../GoHome.vi"/>
 		<Item Name="Hindbrain.vi" Type="VI" URL="../Hindbrain.vi"/>
 		<Item Name="Host_PC.vi" Type="VI" URL="../Via Brian/Host_PC.vi"/>
@@ -434,6 +434,7 @@
 			<Item Name="InitiateConnection.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/InitiateConnection.Proxy.vi"/>
 			<Item Name="isPaired.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/isPaired.vi"/>
 			<Item Name="JoinH-L.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Resources/JoinH-L.vi"/>
+			<Item Name="LoadingBarDialog.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/LoadingBarDialog.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="MidbrainArbiter.vi" Type="VI" URL="../MidbrainArbiter.vi"/>
