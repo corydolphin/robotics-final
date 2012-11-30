@@ -31,7 +31,6 @@
 		</Item>
 		<Item Name="Behaviour.ctl" Type="VI" URL="../Behaviour.ctl"/>
 		<Item Name="Client_NXT.vi" Type="VI" URL="../Via Brian/Client_NXT.vi"/>
-		<Item Name="ConvertRudderCommand.vi" Type="VI" URL="../ConvertRudderCommand.vi"/>
 		<Item Name="Data.lvlib" Type="Library" URL="../Data.lvlib"/>
 		<Item Name="Final Project Software Instructions.docx" Type="Document" URL="../Final Project Software Instructions.docx"/>
 		<Item Name="Forebrain.vi" Type="VI" URL="../Forebrain.vi"/>
@@ -49,8 +48,6 @@
 		<Item Name="OpticalLobe.vi" Type="VI" URL="../OpticalLobe.vi"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 		<Item Name="WhereAmI.ctl" Type="VI" URL="../WhereAmI.ctl"/>
-		<Item Name="XboxControllerInput.vi" Type="VI" URL="../XboxControllerInput.vi"/>
-		<Item Name="XboxGetCommands.vi" Type="VI" URL="../XboxGetCommands.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -273,7 +270,6 @@
 				<Item Name="NXTFlag_Get_Integer.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Advanced/NXTFlag_Get_Integer.vi"/>
 				<Item Name="NXTFlag_Get_Poly.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Advanced/NXTFlag_Get_Poly.vi"/>
 				<Item Name="NXTFlag_Get_String.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Advanced/NXTFlag_Get_String.vi"/>
-				<Item Name="NXTInputOutput.dll" Type="Document" URL="/&lt;vilib&gt;/NXT/NXTInputOutput/NXTInputOutput.dll"/>
 				<Item Name="NXTInputRefnum.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/NXT Controls/NXTInputRefnum.ctl"/>
 				<Item Name="NXTOutputMultiRefnum.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/NXT Controls/NXTOutputMultiRefnum.ctl"/>
 				<Item Name="NXTOutputRefnum.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/NXT Controls/NXTOutputRefnum.ctl"/>
@@ -461,6 +457,7 @@
 			<Item Name="NXT_OpenVIRef.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/NXT_OpenVIRef.Proxy.vi"/>
 			<Item Name="NXTCam-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTCam-DM.vi"/>
 			<Item Name="NXTHID-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTHID-DM.vi"/>
+			<Item Name="NXTInputOutput.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/NXTInputOutput.rc"/>
 			<Item Name="NXTLineLeader-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-DM.vi"/>
 			<Item Name="NXTLineLeader-Util-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-Util-DM.vi"/>
 			<Item Name="NXTMMX-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTMMX-DM.vi"/>
