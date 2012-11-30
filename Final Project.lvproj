@@ -31,6 +31,7 @@
 		</Item>
 		<Item Name="Behaviour.ctl" Type="VI" URL="../Behaviour.ctl"/>
 		<Item Name="Client_NXT.vi" Type="VI" URL="../Via Brian/Client_NXT.vi"/>
+		<Item Name="ConvertRudderCommand.vi" Type="VI" URL="../ConvertRudderCommand.vi"/>
 		<Item Name="Data.lvlib" Type="Library" URL="../Data.lvlib"/>
 		<Item Name="Final Project Software Instructions.docx" Type="Document" URL="../Final Project Software Instructions.docx"/>
 		<Item Name="Forebrain.vi" Type="VI" URL="../Forebrain.vi"/>
@@ -48,6 +49,8 @@
 		<Item Name="OpticalLobe.vi" Type="VI" URL="../OpticalLobe.vi"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 		<Item Name="WhereAmI.ctl" Type="VI" URL="../WhereAmI.ctl"/>
+		<Item Name="XboxControllerInput.vi" Type="VI" URL="../XboxControllerInput.vi"/>
+		<Item Name="XboxGetCommands.vi" Type="VI" URL="../XboxGetCommands.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -434,7 +437,6 @@
 			<Item Name="InitiateConnection.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/InitiateConnection.Proxy.vi"/>
 			<Item Name="isPaired.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/isPaired.vi"/>
 			<Item Name="JoinH-L.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Resources/JoinH-L.vi"/>
-			<Item Name="LoadingBarDialog.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/LoadingBarDialog.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="MidbrainArbiter.vi" Type="VI" URL="../MidbrainArbiter.vi"/>
