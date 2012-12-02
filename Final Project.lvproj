@@ -58,6 +58,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BlueErrorCheck.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/BlueErrorCheck.vi"/>
 				<Item Name="BlueTooth_Read_float.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/BT/BlueTooth_Read_float.vi"/>
 				<Item Name="BlueTooth_Read_num.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/BT/BlueTooth_Read_num.vi"/>
@@ -77,6 +78,7 @@
 				<Item Name="BTWriteBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Remote Library/Message/BTWriteBuffer.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="BuildMessagePacket.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Remote Library/Message/BuildMessagePacket.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="CheckFirmware.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/CheckFirmware.vi"/>
 				<Item Name="CheckOnBoardCodes.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/CheckOnBoardCodes.vi"/>
@@ -87,8 +89,6 @@
 				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
 				<Item Name="closeMouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeMouse.vi"/>
 				<Item Name="CoerceValue.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Block Support/CoerceValue.vi"/>
-				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Color_Blue.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Color_Blue.vi"/>
 				<Item Name="Color_Detector.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Color_Detector.vi"/>
 				<Item Name="Color_Green.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Color_Green.vi"/>
@@ -96,11 +96,13 @@
 				<Item Name="Color_Red.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Color_Red.vi"/>
 				<Item Name="ConnectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/NXT Controls/ConnectionType.ctl"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="CreateNXTCluster.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Advanced/CreateNXTCluster.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DirectControlCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/DirectControlCommands.ctl"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
@@ -184,11 +186,6 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
-				<Item Name="IMAQ Attribute.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqhl.llb/IMAQ Attribute.vi"/>
-				<Item Name="IMAQ Close.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqhl.llb/IMAQ Close.vi"/>
-				<Item Name="IMAQ ColorImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ColorImageToArray"/>
-				<Item Name="IMAQ Configure Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqll.llb/IMAQ Configure Buffer.vi"/>
-				<Item Name="IMAQ Configure List.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqll.llb/IMAQ Configure List.vi"/>
 				<Item Name="IMAQ Convert From Matches Internal" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Convert From Matches Internal"/>
 				<Item Name="IMAQ Convert To Curve Parameters Internal" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Convert To Curve Parameters Internal"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
@@ -197,49 +194,13 @@
 				<Item Name="IMAQ Curve Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Curve Parameters.ctl"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
-				<Item Name="IMAQ GetImagePixelPtr" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImagePixelPtr"/>
 				<Item Name="IMAQ GM Match Report Internal.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ GM Match Report Internal.ctl"/>
 				<Item Name="IMAQ GM Match Report.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ GM Match Report.ctl"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQ Init.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqhl.llb/IMAQ Init.vi"/>
 				<Item Name="IMAQ Match Range Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Match Range Setting.ctl"/>
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
-				<Item Name="IMAQ RectToCoord.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqll.llb/IMAQ RectToCoord.vi"/>
-				<Item Name="IMAQ Sequence.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqhl.llb/IMAQ Sequence.vi"/>
-				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
-				<Item Name="IMAQ Snap.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqhl.llb/IMAQ Snap.vi"/>
-				<Item Name="IMAQ Start.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqll.llb/IMAQ Start.vi"/>
-				<Item Name="IMAQ StillColor Attribute.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqcolor.llb/IMAQ StillColor Attribute.vi"/>
-				<Item Name="IMAQ StillColor Setup.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqcolor.llb/IMAQ StillColor Setup.vi"/>
-				<Item Name="IMAQ Stop.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqll.llb/IMAQ Stop.vi"/>
-				<Item Name="IMAQ Wait Signal.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/imaqsignalio.llb/IMAQ Wait Signal.vi"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
-				<Item Name="IMAQRegisterSession.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/IMAQRegisterSession.vi"/>
-				<Item Name="IMAQUnregisterSession.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/IMAQUnregisterSession.vi"/>
-				<Item Name="imgBufferElement.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgBufferElement.vi"/>
-				<Item Name="imgClose.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgClose.vi"/>
-				<Item Name="imgCreateBufList.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgCreateBufList.vi"/>
-				<Item Name="imgDisposeBufList.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgDisposeBufList.vi"/>
-				<Item Name="imgEnsureEqualBorders.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgEnsureEqualBorders.vi"/>
-				<Item Name="imgGetBufList.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgGetBufList.vi"/>
-				<Item Name="imgInterfaceOpen.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgInterfaceOpen.vi"/>
-				<Item Name="imgIsNewStyleInterface.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgIsNewStyleInterface.vi"/>
-				<Item Name="imgMemLock.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgMemLock.vi"/>
-				<Item Name="imgPopScalingAndROI.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgPopScalingAndROI.vi"/>
-				<Item Name="imgPushScalingAndROI.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgPushScalingAndROI.vi"/>
-				<Item Name="imgSessionAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSessionAcquire.vi"/>
-				<Item Name="imgSessionAttribute.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSessionAttribute.vi"/>
-				<Item Name="imgSessionConfigure.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSessionConfigure.vi"/>
-				<Item Name="imgSessionOpen.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSessionOpen.vi"/>
-				<Item Name="imgSessionStopAcquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSessionStopAcquisition.vi"/>
-				<Item Name="imgSetChannel.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSetChannel.vi"/>
-				<Item Name="imgSetGetRoiInternal.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSetGetRoiInternal.vi"/>
-				<Item Name="imgSetGetScaling.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSetGetScaling.vi"/>
-				<Item Name="imgSetRoi.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSetRoi.vi"/>
-				<Item Name="imgSnap.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgSnap.vi"/>
-				<Item Name="imgUpdateErrorCluster.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgUpdateErrorCluster.vi"/>
-				<Item Name="imgWaitForIMAQOccurrence.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/imgWaitForIMAQOccurrence.vi"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
 				<Item Name="inRangeAndCoerce_float.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/prims/inRangeAndCoerce/inRangeAndCoerce_float.vi"/>
 				<Item Name="inRangeAndCoerce_floatArray.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/prims/inRangeAndCoerce/inRangeAndCoerce_floatArray.vi"/>
@@ -398,6 +359,7 @@
 				<Item Name="PolySound.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sound/PolySound.vi"/>
 				<Item Name="PolyWait.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Waits/PolyWait.vi"/>
 				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read_Battery.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Read_Battery.vi"/>
 				<Item Name="Read_NewTemp.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Read_NewTemp.vi"/>
 				<Item Name="Read_Timer.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sensors/Read_Timer.vi"/>
@@ -413,7 +375,6 @@
 				<Item Name="SendCmdToDebug.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/SendCmdToDebug.vi"/>
 				<Item Name="sendDirectCommand_Sim.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/sendDirectCommand_Sim.vi"/>
 				<Item Name="SequenceBoolean.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/NXT Controls/SequenceBoolean.ctl"/>
-				<Item Name="SessionLookUp.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/DLLCalls.llb/SessionLookUp.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -479,7 +440,6 @@
 			<Item Name="closeFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/closeFile.vi"/>
 			<Item Name="ConnectionStatus.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/ConnectionStatus.ctl"/>
 			<Item Name="ConnectionTypeToString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/ConnectionTypeToString.vi"/>
-			<Item Name="Convert_IMAQtoLVImage.vi" Type="VI" URL="../Convert_IMAQtoLVImage.vi"/>
 			<Item Name="createFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/createFile.vi"/>
 			<Item Name="createFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/createFileIterator.vi"/>
 			<Item Name="createModuleIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/createModuleIterator.vi"/>
@@ -511,12 +471,10 @@
 			<Item Name="getModule.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getModule.vi"/>
 			<Item Name="getResourceString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getResourceString.vi"/>
 			<Item Name="getStringFromNXTIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getStringFromNXTIterator.vi"/>
-			<Item Name="imaq.dll" Type="Document" URL="imaq.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="InitiateConnection.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/InitiateConnection.Proxy.vi"/>
 			<Item Name="isPaired.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/isPaired.vi"/>
 			<Item Name="JoinH-L.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Resources/JoinH-L.vi"/>
+			<Item Name="LoadingBarDialog.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/LoadingBarDialog.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="MidbrainArbiter.vi" Type="VI" URL="../MidbrainArbiter.vi"/>
@@ -540,6 +498,7 @@
 			<Item Name="NXT_OpenVIRef.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/NXT_OpenVIRef.Proxy.vi"/>
 			<Item Name="NXTCam-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTCam-DM.vi"/>
 			<Item Name="NXTHID-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTHID-DM.vi"/>
+			<Item Name="NXTInputOutput.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/NXTInputOutput.rc"/>
 			<Item Name="NXTLineLeader-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-DM.vi"/>
 			<Item Name="NXTLineLeader-Util-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-Util-DM.vi"/>
 			<Item Name="NXTMMX-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTMMX-DM.vi"/>
