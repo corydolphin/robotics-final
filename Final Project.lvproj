@@ -51,6 +51,7 @@
 		<Item Name="MDF.ctl" Type="VI" URL="../MDF.ctl"/>
 		<Item Name="Midbrain.vi" Type="VI" URL="../Midbrain.vi"/>
 		<Item Name="MidbrainBehaviour.ctl" Type="VI" URL="../MidbrainBehaviour.ctl"/>
+		<Item Name="MissionDef.ctl" Type="VI" URL="../MissionDef.ctl"/>
 		<Item Name="NearWaypointTest.vi" Type="VI" URL="../NearWaypointTest.vi"/>
 		<Item Name="OccGrid.ctl" Type="VI" URL="../OccGrid.ctl"/>
 		<Item Name="OpticalLobe.vi" Type="VI" URL="../OpticalLobe.vi"/>
@@ -202,6 +203,7 @@
 				<Item Name="IMAQ GM Match Report.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ GM Match Report.ctl"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Match Range Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Match Range Setting.ctl"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
