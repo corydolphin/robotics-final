@@ -112,8 +112,8 @@
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
-				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="drawBluePicture.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Display/drawBluePicture.vi"/>
 				<Item Name="drawCircle.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Display/drawCircle.vi"/>
 				<Item Name="drawGreenPicture.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Display/drawGreenPicture.vi"/>
@@ -206,7 +206,7 @@
 				<Item Name="IMAQ GM Match Report.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ GM Match Report.ctl"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Match Range Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Match Range Setting.ctl"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
@@ -244,7 +244,6 @@
 				<Item Name="MotorPortToPortList.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/MotorPortToPortList.vi"/>
 				<Item Name="MotorReverse.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Motors/MotorReverse.vi"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
@@ -344,6 +343,7 @@
 				<Item Name="NXTToolkit.OpenFirmwareDownloader.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Subs/NXTToolkit.OpenFirmwareDownloader.vi"/>
 				<Item Name="OutputFlags.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/Block Support/OutputFlags.ctl"/>
 				<Item Name="OutputMode.ctl" Type="VI" URL="/&lt;vilib&gt;/NXT/Block Support/OutputMode.ctl"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="PlayA#.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sound/PlayA#.vi"/>
 				<Item Name="PlayA.vi" Type="VI" URL="/&lt;vilib&gt;/NXT/Dual Mode Library/Sound/PlayA.vi"/>
@@ -445,36 +445,36 @@
 			</Item>
 			<Item Name="Acceleration Sensor-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/Acceleration Sensor-DM.vi"/>
 			<Item Name="Actuator-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/Actuator-DM.vi"/>
-			<Item Name="advanceFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/advanceFileIterator.vi"/>
+			<Item Name="advanceFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/advanceFileIterator.vi"/>
 			<Item Name="advanceNXTIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/advanceNXTIterator.vi"/>
 			<Item Name="AvoidWall.vi" Type="VI" URL="../AvoidWall.vi"/>
 			<Item Name="bcd2no.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Resources/Library.llb/bcd2no.vi"/>
 			<Item Name="Bring RPC to Front.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Bring RPC to Front.vi"/>
 			<Item Name="CalWaypoint.vi" Type="VI" URL="../CalWaypoint.vi"/>
 			<Item Name="Choose NXT in RPC DLG.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Robot Project/Choose NXT in RPC DLG.vi"/>
-			<Item Name="closeFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/closeFile.vi"/>
-			<Item Name="ConnectionStatus.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/ConnectionStatus.ctl"/>
+			<Item Name="closeFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/closeFile.vi"/>
+			<Item Name="ConnectionStatus.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/ConnectionStatus.ctl"/>
 			<Item Name="ConnectionTypeToString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/ConnectionTypeToString.vi"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
 			<Item Name="Convert_IMAQtoLVImage.vi" Type="VI" URL="../Convert_IMAQtoLVImage.vi"/>
-			<Item Name="createFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/createFile.vi"/>
-			<Item Name="createFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/createFileIterator.vi"/>
+			<Item Name="createFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/createFile.vi"/>
+			<Item Name="createFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/createFileIterator.vi"/>
 			<Item Name="createModuleIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/createModuleIterator.vi"/>
 			<Item Name="createNXT.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/createNXT.vi"/>
 			<Item Name="createNXTIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/createNXTIterator.vi"/>
-			<Item Name="destroyFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyFile.vi"/>
-			<Item Name="destroyFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyFileIterator.vi"/>
+			<Item Name="destroyFile.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/destroyFile.vi"/>
+			<Item Name="destroyFileIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/destroyFileIterator.vi"/>
 			<Item Name="destroyModule.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyModule.vi"/>
 			<Item Name="destroyModuleIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyModuleIterator.vi"/>
-			<Item Name="destroyNXT.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyNXT.vi"/>
+			<Item Name="destroyNXT.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/destroyNXT.vi"/>
 			<Item Name="destroyNXTIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/destroyNXTIterator.vi"/>
 			<Item Name="Distance Sensor-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/Distance Sensor-DM.vi"/>
 			<Item Name="DrawRobot.vi" Type="VI" URL="../DrawRobot.vi"/>
 			<Item Name="fantom.dll" Type="Document" URL="fantom.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Fantom.DownloadFileData.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/Fantom.DownloadFileData.vi"/>
-			<Item Name="Fantom.ListFiles.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/Fantom.ListFiles.vi"/>
+			<Item Name="Fantom.DownloadFileData.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/Fantom.DownloadFileData.vi"/>
+			<Item Name="Fantom.ListFiles.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/Fantom.ListFiles.vi"/>
 			<Item Name="findNXT.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/findNXT.vi"/>
 			<Item Name="Get real boat.vi" Type="VI" URL="../Labview/Real Pool navigation/Get real boat.vi"/>
 			<Item Name="Get real bouy.vi" Type="VI" URL="../Labview/Real Pool navigation/Get real bouy.vi"/>
@@ -482,11 +482,11 @@
 			<Item Name="Get real whale.vi" Type="VI" URL="../Labview/Real Pool navigation/Get real whale.vi"/>
 			<Item Name="GetContextByName.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/GetContextByName.vi"/>
 			<Item Name="getDeviceInfo.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getDeviceInfo.vi"/>
-			<Item Name="getFilenameFromIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getFilenameFromIterator.vi"/>
-			<Item Name="getFileSizeFromIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getFileSizeFromIterator.vi"/>
-			<Item Name="getFirmwareVersion.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getFirmwareVersion.vi"/>
+			<Item Name="getFilenameFromIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getFilenameFromIterator.vi"/>
+			<Item Name="getFileSizeFromIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getFileSizeFromIterator.vi"/>
+			<Item Name="getFirmwareVersion.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getFirmwareVersion.vi"/>
 			<Item Name="getModule.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getModule.vi"/>
-			<Item Name="getResourceString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getResourceString.vi"/>
+			<Item Name="getResourceString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/getResourceString.vi"/>
 			<Item Name="getStringFromNXTIterator.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/getStringFromNXTIterator.vi"/>
 			<Item Name="InitiateConnection.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/InitiateConnection.Proxy.vi"/>
 			<Item Name="isPaired.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/isPaired.vi"/>
@@ -532,7 +532,7 @@
 			<Item Name="NXTToolkit.UnpackU16.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/NXTToolkit.UnpackU16.vi"/>
 			<Item Name="NXTUnspecifiedString.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/Robot Control Center/NXTUnspecifiedString.vi"/>
 			<Item Name="ObstacleAvoid.vi" Type="VI" URL="../ObstacleAvoid.vi"/>
-			<Item Name="openForWrite.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/openForWrite.vi"/>
+			<Item Name="openForWrite.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/openForWrite.vi"/>
 			<Item Name="OpenTransit.vi" Type="VI" URL="../OpenTransit.vi"/>
 			<Item Name="pairBluetooth.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/pairBluetooth.vi"/>
 			<Item Name="PCF8574-NX-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/PCF8574-NX-DM.vi"/>
@@ -545,16 +545,16 @@
 			<Item Name="PushHome.vi" Type="VI" URL="../PushHome.vi"/>
 			<Item Name="readIOMap.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/readIOMap.vi"/>
 			<Item Name="Realtime Clock-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/Realtime Clock-DM.vi"/>
-			<Item Name="remove.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/remove.vi"/>
+			<Item Name="remove.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/remove.vi"/>
 			<Item Name="robotRefToNXT.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/robotRefToNXT.vi"/>
 			<Item Name="RTC2string.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Resources/Library.llb/RTC2string.vi"/>
 			<Item Name="RXMux-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/RXMux-DM.vi"/>
-			<Item Name="sendDirectCommand.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/sendDirectCommand.vi"/>
+			<Item Name="sendDirectCommand.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/sendDirectCommand.vi"/>
 			<Item Name="SplitConnectionTypeAndName.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/CallBackHelpers/SplitConnectionTypeAndName.vi"/>
 			<Item Name="SteerComand.vi" Type="VI" URL="../SteerComand.vi"/>
 			<Item Name="UpdateMDF.vi" Type="VI" URL="../UpdateMDF.vi"/>
 			<Item Name="WallFollow.vi" Type="VI" URL="../WallFollow.vi"/>
-			<Item Name="write.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/driver/write.vi"/>
+			<Item Name="write.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/Driver/write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
