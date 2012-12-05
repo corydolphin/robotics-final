@@ -44,6 +44,7 @@
 		<Item Name="GoHome.vi" Type="VI" URL="../GoHome.vi"/>
 		<Item Name="Hindbrain.vi" Type="VI" URL="../Hindbrain.vi"/>
 		<Item Name="Host_PC.vi" Type="VI" URL="../Via Brian/Host_PC.vi"/>
+		<Item Name="ImageScaleFactor.vi" Type="VI" URL="../ImageScaleFactor.vi"/>
 		<Item Name="InitialMissionImage.vi" Type="VI" URL="../InitialMissionImage.vi"/>
 		<Item Name="InRange (SubVI).vi" Type="VI" URL="../InRange (SubVI).vi"/>
 		<Item Name="Kill.vi" Type="VI" URL="../Kill.vi"/>
@@ -56,7 +57,9 @@
 		<Item Name="OccGrid.ctl" Type="VI" URL="../OccGrid.ctl"/>
 		<Item Name="OpticalLobe.vi" Type="VI" URL="../OpticalLobe.vi"/>
 		<Item Name="OptLobeGuts.vi" Type="VI" URL="../OptLobeGuts.vi"/>
+		<Item Name="PictureScaleFactor.vi" Type="VI" URL="../PictureScaleFactor.vi"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
+		<Item Name="ScaleFactor.vi" Type="VI" URL="../ScaleFactor.vi"/>
 		<Item Name="SendCommand.vi" Type="VI" URL="../SendCommand.vi"/>
 		<Item Name="WhereAmI.ctl" Type="VI" URL="../WhereAmI.ctl"/>
 		<Item Name="XboxGetCommands.vi" Type="VI" URL="../XboxGetCommands.vi"/>
