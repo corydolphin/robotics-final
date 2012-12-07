@@ -518,7 +518,6 @@
 			<Item Name="NXT_OpenVIRef.Proxy.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/Targets/NI/NXT/NXTToolkit/shared/NXT_OpenVIRef.Proxy.vi"/>
 			<Item Name="NXTCam-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTCam-DM.vi"/>
 			<Item Name="NXTHID-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTHID-DM.vi"/>
-			<Item Name="NXTInputOutput.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/NXTInputOutput.rc"/>
 			<Item Name="NXTLineLeader-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-DM.vi"/>
 			<Item Name="NXTLineLeader-Util-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTLineLeader-Util-DM.vi"/>
 			<Item Name="NXTMMX-DM.vi" Type="VI" URL="../Hindbrain/mindsensors.com_LVEE_Toolkit_V1.23/mindsensors.com LVEE Toolkit/Dual/NXTMMX-DM.vi"/>
